@@ -7,7 +7,7 @@ import retrofit2.http.GET
 
 const val BASE_URL = "https://github-trending-api.now.sh/"
 
-interface APISerivce{
+interface ApiService{
     @GET("repositories")
     fun  getUsers() : Call<List<User>>
 }

@@ -37,7 +37,7 @@ class MainFragment : Fragment() {
             urecyclerView.layoutManager = LinearLayoutManager(activity)
             urecyclerView.adapter = ItemAdapter(userList,context)
             Log.i("MainFragment","layout manager is set")
-            var apiinterface : APISerivce = RetrofitClient().getClient().create(APISerivce::class.java)
+            var apiinterface : ApiService = RetrofitClient().getClient().create(ApiService::class.java)
             apiinterface.getUsers().enqueue(object:retrofit2.Callback<List<User>>{
                 override fun onFailure(p0: Call<List<User>>?, p1: Throwable?) {
                     Log.i("MainFragment","inside onFailure")
