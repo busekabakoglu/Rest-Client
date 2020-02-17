@@ -6,5 +6,9 @@ Android için uygulamanın Single Activity, Multiple Fragment olarak kurgulanmas
 
 Bonus:  
 1- Language ya da since query string parametrelerinin kullanılması: e.g. https://github-trending-api.now.sh/repositories?language=javascript&since=weekly  
-2- Search by username: e.g. Ekrana search bar koyup, çekilen data üzerinden kullanıcı adına göre filtreleme.
-Proje  
+2- Search by username: e.g. Ekrana search bar koyup, çekilen data üzerinden kullanıcı adına göre filtreleme.  
+   
+![](app/src/main/res/layout/Capture.PNG)
+--- 
+![](app/src/main/res/layout/Capture2.PNG)
+---
